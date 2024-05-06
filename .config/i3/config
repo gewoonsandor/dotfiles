@@ -202,7 +202,7 @@ default_floating_border none
 exec setxkbmap "us(colemak_dh)","us" -option 'grp:alt_shift_toggle'
 
 # Set a bachground
-exec feh --bg-scale $HOME/Pictures/Background/sunset-illustration.jpg
+exec feh --bg-scale $HOME/Pictures/Background/bg-image.jpg
 
 # Run compositor
 exec picom
