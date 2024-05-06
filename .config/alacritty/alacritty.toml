@@ -1,0 +1,13 @@
+import = [
+    "~/.config/alacritty/catpuccin.toml"
+]
+
+# Font
+[font]
+normal.family="JetBrains Mono Nerd Font" 
+size=10.2
+
+# Window Settings
+[window]
+opacity=0.85
+startup_mode="Maximized" 
