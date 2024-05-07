@@ -10,6 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
+set $alt Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -62,6 +63,8 @@ bindsym $mod+Shift+q kill
 # bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
 bindsym $mod+d exec rofi -show drun
+#Alt Tab menu
+bindsym $alt+Tab exec --no-startup-id "rofi -show window -kb-row-down 'Alt+Tab' -kb-row-up 'Alt+ISO_Left_Tab' -kb-accept-entry '!Alt-Tab,!Alt-Alt_L,!Alt_L'"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
@@ -199,7 +202,7 @@ default_border none
 default_floating_border none
 
 # Set colemak DH keymapping
-exec setxkbmap "us(colemak_dh)","us" -option 'grp:alt_shift_toggle'
+exec setxkbmap "us(colemak_dh)","us" -option 'grp:win_space_toggle'
 
 # Set a bachground
 exec feh --bg-scale $HOME/Pictures/Background/bg-image.jpg
