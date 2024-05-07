@@ -71,6 +71,6 @@ alias amend="git commit amend --no-edit"
 
 eval "$(zoxide init --cmd cd zsh)"
 
-export PATH="$PATH:/home/sandor/.local/share/gem/ruby/3.0.0/bin"
+export PATH="$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin"
 # Created by `pipx` on 2024-04-08 09:14:57
-export PATH="$PATH:/home/sandor/.local/bin"
+export PATH="$PATH:$HOME/.local/bin"
