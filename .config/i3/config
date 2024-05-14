@@ -205,7 +205,7 @@ default_floating_border none
 exec setxkbmap "us(colemak_dh)","us" -option 'grp:win_space_toggle'
 
 # Set a bachground
-exec feh --bg-scale $HOME/Pictures/Background/bg-image.jpg
+exec feh --bg-fill --no-xinerama $HOME/Pictures/Background/bg-image.png
 
 # Run compositor
 exec picom
