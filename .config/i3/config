@@ -192,7 +192,7 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-
+bindsym $mod+i exec --no-startup-id ~/.config/i3/lock.sh
 # Gaps 
 gaps inner 5
 gaps outer 2
