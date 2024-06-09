@@ -9,7 +9,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       40%;
+    width:                       20%;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -36,15 +36,13 @@ mainbox {
 
 listview {
     enabled:                     true;
-    columns:                     10;
-    lines:                       1;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;
     layout:                      vertical;
     reverse:                     false;
-    fixed-height:                true;
-    fixed-columns:               true;
+    fixed-height:                false;
+    fixed-columns:               false;
     
     spacing:                     0px;
     margin:                      0px;
@@ -68,7 +66,7 @@ element {
     border-color:                @mauve;
     background-color:            transparent;
     text-color:                  @text;
-    orientation:                 vertical;
+    orientation:                 horizontal;
     cursor:                      pointer;
 }
 element normal.normal {
@@ -82,7 +80,7 @@ element selected.normal {
 element-icon {
     background-color:            transparent;
     text-color:                  inherit;
-    size:                        48px;
+    size:                        32px;
     cursor:                      inherit;
 }
 element-text {
@@ -91,5 +89,6 @@ element-text {
     highlight:                   inherit;
     cursor:                      inherit;
     vertical-align:              0.5;
-    horizontal-align:            0.5;
+    horizontal-align:            0;
+    font:                        "Jetbrains Mono Nerd Font 14";
 }
