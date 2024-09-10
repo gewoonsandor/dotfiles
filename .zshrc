@@ -79,6 +79,7 @@ ssh-key()  {
 }
 
 eval "$(zoxide init --cmd cd zsh)"
+source <(fzf --zsh)
 
 # Set nvim as default editor
 export EDITOR=nvim
