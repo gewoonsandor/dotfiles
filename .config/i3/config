@@ -36,7 +36,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Set the screens in the right position
-exec --no-startup-id xrandr --output DP-1 --right-of HDMI-1
+exec --no-startup-id xrandr --output DP-3 --right-of HDMI-1
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -68,6 +68,9 @@ bindsym $alt+Tab exec --no-startup-id $HOME/.config/rofi/alttab.sh
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
+
+# Emoji menu
+bindsym $mod+period exec --no-startup-id rofi -modi "emoji:rofimoji" -show emoji
 
 # On printscreen create a screenshot in region mode
 bindsym Print exec spectacle -r
@@ -165,6 +168,12 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# Make the Currently focused window a scratchpad
+bindsym $mod+Shift+minus move scratchpad 
+
+# Show the first scratchpad window
+bindsym $mod+minus scratchpad show
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

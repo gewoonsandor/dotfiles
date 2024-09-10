@@ -48,12 +48,6 @@ zinit light zsh-users/zsh-completions
 #zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-syntax-highlighting
 
-for dir in $path; do 
-  if [[ $dir == "/mnt/"* ]]; then
-    ZSH_HIGHLIGHT_DIRS_BLACKLIST+=($dir)
-  fi
-done
-
 compinit
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
@@ -76,7 +70,19 @@ alias ll="colorls -la"
 alias cc="ccat"
 alias amend="git commit amend --no-edit"
 
+pdf() {
+  evince $* & disown
+}
+
+ssh-key()  {
+  eval $(ssh-agent) & ssh-add ~/.ssh/github
+}
+
 eval "$(zoxide init --cmd cd zsh)"
+
+# Set nvim as default editor
+export EDITOR=nvim
+export VISUAL=nvim
 
 export PATH="$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin"
 # Created by `pipx` on 2024-04-08 09:14:57
