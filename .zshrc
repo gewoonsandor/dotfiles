@@ -77,6 +77,7 @@ alias cc="ccat"
 alias amend="git commit amend --no-edit"
 
 eval "$(zoxide init --cmd cd zsh)"
+source <(fzf --zsh)
 
 export PATH="$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin"
 # Created by `pipx` on 2024-04-08 09:14:57
