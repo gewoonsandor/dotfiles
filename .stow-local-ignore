@@ -1,3 +1,4 @@
-*.md
-*.sh
-confs/
+README.md
+install.sh
+/confs
+.git.*

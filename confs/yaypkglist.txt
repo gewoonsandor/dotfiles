@@ -1,0 +1,3 @@
+ccat
+i3lock-color
+zsh-theme-powerlvel10k-git

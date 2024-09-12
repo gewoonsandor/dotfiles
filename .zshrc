@@ -21,7 +21,7 @@ unsetopt beep
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/sandor/.zshrc'
+zstyle :compinstall filename '${HOME}/.zshrc'
 autoload -Uz compinit && compinit
 
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
@@ -55,10 +55,6 @@ setopt MENU_COMPLETE
 # End of lines added by compinstall
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
-#jenv java versions manager
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
-
 # Start the ssh-agent
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
@@ -75,7 +71,10 @@ pdf() {
 }
 
 ssh-key()  {
-  eval $(ssh-agent) & ssh-add ~/.ssh/github
+  eval $(ssh-agent) 
+  for file in ~/.ssh/*.pub; do 
+    ssh-add "${file%.pub}"
+  done
 }
 
 eval "$(zoxide init --cmd cd zsh)"
