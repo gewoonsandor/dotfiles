@@ -8,7 +8,7 @@ fi
 export TERM=screen-256color
 plugins=(
   tmux
-) 
+)
 ZSH_TMUX_AUTOSTART=true
 ZSH_TMUX_AUTOCONNECT=false
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
@@ -58,6 +58,12 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # Start the ssh-agent
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
+# Sway socket
+export SWAYSOCK=/run/user/$(id -u)/sway-ipc.$(id -u).$(pgrep -x sway).sock
+
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -65,14 +71,15 @@ alias l="colorls"
 alias ll="colorls -la"
 alias cc="ccat"
 alias amend="git commit amend --no-edit"
+alias zed="zeditor"
 
 pdf() {
   evince $* & disown
 }
 
 ssh-key()  {
-  eval $(ssh-agent) 
-  for file in ~/.ssh/*.pub; do 
+  eval $(ssh-agent)
+  for file in ~/.ssh/*.pub; do
     ssh-add "${file%.pub}"
   done
 }
