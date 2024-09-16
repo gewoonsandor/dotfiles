@@ -102,6 +102,10 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+# Move entire workspace 
+bindsym $mod+Shift+Control+Left move workspace to output left
+bindsym $mod+Shift+Control+Right move workspace to output right
+
 # split in horizontal orientation
 bindsym $mod+h split h
 
@@ -166,11 +170,13 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 #assign apps to workspaces
+assign [app_id="Alacritty"] workspace 1
 assign [class="waterfox"] workspace 2
 assign [class="^.*jetbrains"] workspace 3 
 assign [title="^.*VSCodium"] workspace 3
 assign [app_id="dev.zed.Zed"] workspace 3
 assign [class="Spotify"] workspace 4
+assign [class="discord"] workspace 5
 assign [class="Signal"] workspace 5
 assign [class="whatsdesk"] workspace 5
 assign [app_id="thunderbird"] workspace 6
@@ -178,13 +184,6 @@ assign [class="steam"] workspace 10
 assign [app_id="lutris"] workspace 10
 assign [class="heroic"] workspace 10
 assign [app_id="com.usebottles.bottles"] workspace 10
-
-# reload the configuration file
-bindsym $mod+Shift+c reload
-# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
-# exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'swaymsg exit'"
 
 # Make the Currently focused window a scratchpad
 bindsym $mod+Shift+minus move scratchpad 
