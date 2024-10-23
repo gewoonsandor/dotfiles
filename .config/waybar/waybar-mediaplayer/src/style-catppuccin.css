@@ -1,910 +1,708 @@
-@define-color overlay0 rgba(235, 160, 168, 0.7);
+@define-color overlay0 rgb(30, 30, 46);
 #custom-mediaplayer.perc0-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 0.0%,
-    @surface0 0.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 0%,
+        @surface0 0.1%
     );
 }
 #custom-mediaplayer.perc1-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 1.0%,
-    @surface0 1.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 1%,
+        @surface0 1.1%
     );
 }
 #custom-mediaplayer.perc2-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 2.0%,
-    @surface0 2.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 2%,
+        @surface0 2.1%
     );
 }
 #custom-mediaplayer.perc3-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 3.0%,
-    @surface0 3.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 3%,
+        @surface0 3.1%
     );
 }
 #custom-mediaplayer.perc4-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 4.0%,
-    @surface0 4.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 4%,
+        @surface0 4.1%
     );
 }
 #custom-mediaplayer.perc5-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 5.0%,
-    @surface0 5.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 5%,
+        @surface0 5.1%
     );
 }
 #custom-mediaplayer.perc6-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 6.0%,
-    @surface0 6.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 6%,
+        @surface0 6.1%
     );
 }
 #custom-mediaplayer.perc7-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 7.0%,
-    @surface0 7.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 7%,
+        @surface0 7.1%
     );
 }
 #custom-mediaplayer.perc8-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 8.0%,
-    @surface0 8.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 8%,
+        @surface0 8.1%
     );
 }
 #custom-mediaplayer.perc9-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 9.0%,
-    @surface0 9.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 9%,
+        @surface0 9.1%
     );
 }
 #custom-mediaplayer.perc10-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 10.0%,
-    @surface0 10.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 10%,
+        @surface0 10.1%
     );
 }
 #custom-mediaplayer.perc11-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 11.0%,
-    @surface0 11.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 11%,
+        @surface0 11.1%
     );
 }
 #custom-mediaplayer.perc12-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 12.0%,
-    @surface0 12.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 12%,
+        @surface0 12.1%
     );
 }
 #custom-mediaplayer.perc13-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 13.0%,
-    @surface0 13.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 13%,
+        @surface0 13.1%
     );
 }
 #custom-mediaplayer.perc14-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 14.0%,
-    @surface0 14.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 14%,
+        @surface0 14.1%
     );
 }
 #custom-mediaplayer.perc15-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 15.0%,
-    @surface0 15.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 15%,
+        @surface0 15.1%
     );
 }
 #custom-mediaplayer.perc16-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 16.0%,
-    @surface0 16.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 16%,
+        @surface0 16.1%
     );
 }
 #custom-mediaplayer.perc17-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 17.0%,
-    @surface0 17.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 17%,
+        @surface0 17.1%
     );
 }
 #custom-mediaplayer.perc18-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 18.0%,
-    @surface0 18.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 18%,
+        @surface0 18.1%
     );
 }
 #custom-mediaplayer.perc19-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 19.0%,
-    @surface0 19.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 19%,
+        @surface0 19.1%
     );
 }
 #custom-mediaplayer.perc20-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 20.0%,
-    @surface0 20.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 20%,
+        @surface0 20.1%
     );
 }
 #custom-mediaplayer.perc21-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 21.0%,
-    @surface0 21.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 21%,
+        @surface0 21.1%
     );
 }
 #custom-mediaplayer.perc22-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 22.0%,
-    @surface0 22.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 22%,
+        @surface0 22.1%
     );
 }
 #custom-mediaplayer.perc23-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 23.0%,
-    @surface0 23.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 23%,
+        @surface0 23.1%
     );
 }
 #custom-mediaplayer.perc24-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 24.0%,
-    @surface0 24.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 24%,
+        @surface0 24.1%
     );
 }
 #custom-mediaplayer.perc25-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 25.0%,
-    @surface0 25.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 25%,
+        @surface0 25.1%
     );
 }
 #custom-mediaplayer.perc26-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 26.0%,
-    @surface0 26.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 26%,
+        @surface0 26.1%
     );
 }
 #custom-mediaplayer.perc27-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 27.0%,
-    @surface0 27.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 27%,
+        @surface0 27.1%
     );
 }
 #custom-mediaplayer.perc28-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 28.0%,
-    @surface0 28.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 28%,
+        @surface0 28.1%
     );
 }
 #custom-mediaplayer.perc29-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 29.0%,
-    @surface0 29.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 29%,
+        @surface0 29.1%
     );
 }
 #custom-mediaplayer.perc30-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 30.0%,
-    @surface0 30.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 30%,
+        @surface0 30.1%
     );
 }
 #custom-mediaplayer.perc31-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 31.0%,
-    @surface0 31.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 31%,
+        @surface0 31.1%
     );
 }
 #custom-mediaplayer.perc32-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 32.0%,
-    @surface0 32.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 32%,
+        @surface0 32.1%
     );
 }
 #custom-mediaplayer.perc33-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 33.0%,
-    @surface0 33.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 33%,
+        @surface0 33.1%
     );
 }
 #custom-mediaplayer.perc34-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 34.0%,
-    @surface0 34.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 34%,
+        @surface0 34.1%
     );
 }
 #custom-mediaplayer.perc35-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 35.0%,
-    @surface0 35.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 35%,
+        @surface0 35.1%
     );
 }
 #custom-mediaplayer.perc36-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 36.0%,
-    @surface0 36.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 36%,
+        @surface0 36.1%
     );
 }
 #custom-mediaplayer.perc37-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 37.0%,
-    @surface0 37.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 37%,
+        @surface0 37.1%
     );
 }
 #custom-mediaplayer.perc38-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 38.0%,
-    @surface0 38.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 38%,
+        @surface0 38.1%
     );
 }
 #custom-mediaplayer.perc39-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 39.0%,
-    @surface0 39.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 39%,
+        @surface0 39.1%
     );
 }
 #custom-mediaplayer.perc40-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 40.0%,
-    @surface0 40.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 40%,
+        @surface0 40.1%
     );
 }
 #custom-mediaplayer.perc41-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 41.0%,
-    @surface0 41.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 41%,
+        @surface0 41.1%
     );
 }
 #custom-mediaplayer.perc42-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 42.0%,
-    @surface0 42.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 42%,
+        @surface0 42.1%
     );
 }
 #custom-mediaplayer.perc43-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 43.0%,
-    @surface0 43.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 43%,
+        @surface0 43.1%
     );
 }
 #custom-mediaplayer.perc44-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 44.0%,
-    @surface0 44.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 44%,
+        @surface0 44.1%
     );
 }
 #custom-mediaplayer.perc45-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 45.0%,
-    @surface0 45.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 45%,
+        @surface0 45.1%
     );
 }
 #custom-mediaplayer.perc46-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 46.0%,
-    @surface0 46.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 46%,
+        @surface0 46.1%
     );
 }
 #custom-mediaplayer.perc47-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 47.0%,
-    @surface0 47.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 47%,
+        @surface0 47.1%
     );
 }
 #custom-mediaplayer.perc48-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 48.0%,
-    @surface0 48.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 48%,
+        @surface0 48.1%
     );
 }
 #custom-mediaplayer.perc49-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 49.0%,
-    @surface0 49.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 49%,
+        @surface0 49.1%
     );
 }
 #custom-mediaplayer.perc50-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 50.0%,
-    @surface0 50.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 50%,
+        @surface0 50.1%
     );
 }
 #custom-mediaplayer.perc51-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 51.0%,
-    @surface0 51.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 51%,
+        @surface0 51.1%
     );
 }
 #custom-mediaplayer.perc52-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 52.0%,
-    @surface0 52.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 52%,
+        @surface0 52.1%
     );
 }
 #custom-mediaplayer.perc53-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 53.0%,
-    @surface0 53.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 53%,
+        @surface0 53.1%
     );
 }
 #custom-mediaplayer.perc54-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 54.0%,
-    @surface0 54.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 54%,
+        @surface0 54.1%
     );
 }
 #custom-mediaplayer.perc55-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 55.0%,
-    @surface0 55.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 55%,
+        @surface0 55.1%
     );
 }
 #custom-mediaplayer.perc56-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 56.0%,
-    @surface0 56.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 56%,
+        @surface0 56.1%
     );
 }
 #custom-mediaplayer.perc57-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 57.0%,
-    @surface0 57.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 57%,
+        @surface0 57.1%
     );
 }
 #custom-mediaplayer.perc58-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 58.0%,
-    @surface0 58.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 58%,
+        @surface0 58.1%
     );
 }
 #custom-mediaplayer.perc59-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 59.0%,
-    @surface0 59.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 59%,
+        @surface0 59.1%
     );
 }
 #custom-mediaplayer.perc60-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 60.0%,
-    @surface0 60.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 60%,
+        @surface0 60.1%
     );
 }
 #custom-mediaplayer.perc61-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 61.0%,
-    @surface0 61.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 61%,
+        @surface0 61.1%
     );
 }
 #custom-mediaplayer.perc62-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 62.0%,
-    @surface0 62.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 62%,
+        @surface0 62.1%
     );
 }
 #custom-mediaplayer.perc63-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 63.0%,
-    @surface0 63.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 63%,
+        @surface0 63.1%
     );
 }
 #custom-mediaplayer.perc64-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 64.0%,
-    @surface0 64.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 64%,
+        @surface0 64.1%
     );
 }
 #custom-mediaplayer.perc65-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 65.0%,
-    @surface0 65.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 65%,
+        @surface0 65.1%
     );
 }
 #custom-mediaplayer.perc66-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 66.0%,
-    @surface0 66.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 66%,
+        @surface0 66.1%
     );
 }
 #custom-mediaplayer.perc67-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 67.0%,
-    @surface0 67.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 67%,
+        @surface0 67.1%
     );
 }
 #custom-mediaplayer.perc68-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 68.0%,
-    @surface0 68.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 68%,
+        @surface0 68.1%
     );
 }
 #custom-mediaplayer.perc69-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 69.0%,
-    @surface0 69.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 69%,
+        @surface0 69.1%
     );
 }
 #custom-mediaplayer.perc70-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 70.0%,
-    @surface0 70.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 70%,
+        @surface0 70.1%
     );
 }
 #custom-mediaplayer.perc71-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 71.0%,
-    @surface0 71.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 71%,
+        @surface0 71.1%
     );
 }
 #custom-mediaplayer.perc72-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 72.0%,
-    @surface0 72.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 72%,
+        @surface0 72.1%
     );
 }
 #custom-mediaplayer.perc73-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 73.0%,
-    @surface0 73.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 73%,
+        @surface0 73.1%
     );
 }
 #custom-mediaplayer.perc74-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 74.0%,
-    @surface0 74.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 74%,
+        @surface0 74.1%
     );
 }
 #custom-mediaplayer.perc75-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 75.0%,
-    @surface0 75.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 75%,
+        @surface0 75.1%
     );
 }
 #custom-mediaplayer.perc76-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 76.0%,
-    @surface0 76.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 76%,
+        @surface0 76.1%
     );
 }
 #custom-mediaplayer.perc77-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 77.0%,
-    @surface0 77.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 77%,
+        @surface0 77.1%
     );
 }
 #custom-mediaplayer.perc78-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 78.0%,
-    @surface0 78.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 78%,
+        @surface0 78.1%
     );
 }
 #custom-mediaplayer.perc79-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 79.0%,
-    @surface0 79.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 79%,
+        @surface0 79.1%
     );
 }
 #custom-mediaplayer.perc80-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 80.0%,
-    @surface0 80.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 80%,
+        @surface0 80.1%
     );
 }
 #custom-mediaplayer.perc81-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 81.0%,
-    @surface0 81.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 81%,
+        @surface0 81.1%
     );
 }
 #custom-mediaplayer.perc82-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 82.0%,
-    @surface0 82.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 82%,
+        @surface0 82.1%
     );
 }
 #custom-mediaplayer.perc83-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 83.0%,
-    @surface0 83.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 83%,
+        @surface0 83.1%
     );
 }
 #custom-mediaplayer.perc84-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 84.0%,
-    @surface0 84.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 84%,
+        @surface0 84.1%
     );
 }
 #custom-mediaplayer.perc85-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 85.0%,
-    @surface0 85.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 85%,
+        @surface0 85.1%
     );
 }
 #custom-mediaplayer.perc86-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 86.0%,
-    @surface0 86.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 86%,
+        @surface0 86.1%
     );
 }
 #custom-mediaplayer.perc87-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 87.0%,
-    @surface0 87.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 87%,
+        @surface0 87.1%
     );
 }
 #custom-mediaplayer.perc88-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 88.0%,
-    @surface0 88.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 88%,
+        @surface0 88.1%
     );
 }
 #custom-mediaplayer.perc89-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 89.0%,
-    @surface0 89.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 89%,
+        @surface0 89.1%
     );
 }
 #custom-mediaplayer.perc90-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 90.0%,
-    @surface0 90.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 90%,
+        @surface0 90.1%
     );
 }
 #custom-mediaplayer.perc91-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 91.0%,
-    @surface0 91.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 91%,
+        @surface0 91.1%
     );
 }
 #custom-mediaplayer.perc92-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 92.0%,
-    @surface0 92.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 92%,
+        @surface0 92.1%
     );
 }
 #custom-mediaplayer.perc93-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 93.0%,
-    @surface0 93.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 93%,
+        @surface0 93.1%
     );
 }
 #custom-mediaplayer.perc94-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 94.0%,
-    @surface0 94.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 94%,
+        @surface0 94.1%
     );
 }
 #custom-mediaplayer.perc95-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 95.0%,
-    @surface0 95.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 95%,
+        @surface0 95.1%
     );
 }
 #custom-mediaplayer.perc96-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 96.0%,
-    @surface0 96.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 96%,
+        @surface0 96.1%
     );
 }
 #custom-mediaplayer.perc97-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 97.0%,
-    @surface0 97.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 97%,
+        @surface0 97.1%
     );
 }
 #custom-mediaplayer.perc98-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 98.0%,
-    @surface0 98.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 98%,
+        @surface0 98.1%
     );
 }
 #custom-mediaplayer.perc99-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 99.0%,
-    @surface0 99.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 99%,
+        @surface0 99.1%
     );
 }
 #custom-mediaplayer.perc100-0 {
-    border-bottom: 4px solid transparent;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(
-    to right,
-    @overlay0 100.0%,
-    @surface0 100.1%
+    background: linear-gradient(
+        to right,
+        @overlay0 100%,
+        @surface0 100.1%
     );
 }

@@ -4,11 +4,8 @@ feh
 fzf
 git
 grep
-i3-wm
 neovim
 networkmanager
-picom
-polybar
 qt6-declarative
 qt6-svg
 rofi
@@ -16,10 +13,12 @@ ruby
 sddm
 spectacle
 stow
+sway
 thunar
 tmux
 ttf-jetbrains-mono-nerd
 unzip
+waybar
 wget
 zoxide
 zsh

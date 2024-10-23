@@ -61,8 +61,8 @@ export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 # Sway socket
 export SWAYSOCK=/run/user/$(id -u)/sway-ipc.$(id -u).$(pgrep -x sway).sock
 
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+# For some reason needed to run some JetBrains ide's
+export _JAVA_AWT_WM_NONREPARENTING=1
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -87,6 +87,8 @@ ssh-key()  {
 eval "$(zoxide init --cmd cd zsh)"
 source <(fzf --zsh)
 
+eval $(thefuck --alias fuck)
+
 # Set nvim as default editor
 export EDITOR=nvim
 export VISUAL=nvim
@@ -94,3 +96,5 @@ export VISUAL=nvim
 export PATH="$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin"
 # Created by `pipx` on 2024-04-08 09:14:57
 export PATH="$PATH:$HOME/.local/bin"
+
+export PATH=$PATH:/home/sandor/.spicetify
