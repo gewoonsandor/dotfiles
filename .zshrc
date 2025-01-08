@@ -67,8 +67,8 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-alias l="colorls"
-alias ll="colorls -la"
+alias l="ls"
+alias ll="ls -la"
 alias cc="ccat"
 alias amend="git commit amend --no-edit"
 alias zed="zeditor"

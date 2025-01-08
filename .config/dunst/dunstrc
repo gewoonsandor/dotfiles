@@ -1,0 +1,23 @@
+[global]
+frame_color = "#8839ef"
+separator_color= frame
+font = JetBrains Mono NF 10
+
+[urgency_low]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[urgency_normal]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[urgency_critical]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+frame_color = "#fab387"
+
+[brightness]
+urgency = low 
+timeout = 1 
+highlight = "#8839ef"
+
