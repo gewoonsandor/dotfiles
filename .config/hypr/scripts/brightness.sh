@@ -13,4 +13,4 @@ case $1 in
 esac
 
 percentage=$(pkexec brillo)
-dunstify -h string:x-dunst-stack-tag:brightness -h int:value:"$percentage" "$percentage% Brightness"
+dunstify -a "percentage" -h string:x-dunst-stack-tag:brightness -h int:value:"$percentage" "$percentage% Brightness"

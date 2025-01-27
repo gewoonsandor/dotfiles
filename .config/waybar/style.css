@@ -139,6 +139,14 @@ button {
     color: @sky;
 }
 
+#battery.warning {
+  color: @peach;
+}
+
+#battery.critical {
+  color: @red;
+}
+
 #custom-power {
     border-top-right-radius: 5em 5em;
     border-bottom-right-radius: 5em 5em;

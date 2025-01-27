@@ -20,7 +20,7 @@ esac
 
 percentage=$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{if ($3 == "[MUTED]") print "Muted"; else print $2 * 100}')
 if [[ "$percentage" == "Muted" ]]; then
-  dunstify -u normal "Audio Status" "Muted"
+  dunstify -a "percentage" -u normal "Audio Status" "Muted"
 else  
-  dunstify -h string:x-dunst-stack-tag:brightness -h int:value:"$percentage" "$percentage% Volume"
+  dunstify -a "percentage" -h string:x-dunst-stack-tag:brightness -h int:value:"$percentage" "$percentage% Volume"
 fi
