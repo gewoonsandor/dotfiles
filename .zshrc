@@ -98,3 +98,4 @@ export PATH="$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin"
 export PATH="$PATH:$HOME/.local/bin"
 
 export PATH=$PATH:/home/sandor/.spicetify
+source /usr/share/nvm/init-nvm.sh
