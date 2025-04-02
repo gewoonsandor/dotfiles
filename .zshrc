@@ -38,10 +38,8 @@ zinit ice proto=ssh
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 zinit snippet OMZP::git
 zinit snippet OMZP::sudo
-zinit snippet OMZP::aws
 zinit snippet OMZP::kubectl
 zinit snippet OMZP::kubectx
-zinit snippet OMZP::rust
 zinit snippet OMZP::command-not-found
 
 zinit light zsh-users/zsh-completions
@@ -57,9 +55,6 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # Start the ssh-agent
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
-
-# Sway socket
-export SWAYSOCK=/run/user/$(id -u)/sway-ipc.$(id -u).$(pgrep -x sway).sock
 
 # For some reason needed to run some JetBrains ide's
 export _JAVA_AWT_WM_NONREPARENTING=1
